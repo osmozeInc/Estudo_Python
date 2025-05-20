@@ -1,4 +1,5 @@
 from openai import OpenAI # type: ignore
+import pyttsx3
 
 def ChatGPT():
     client = OpenAI(api_key="")
@@ -12,3 +13,15 @@ def ChatGPT():
     )
 
     print(response.choices[0].message.content)
+
+
+def Falar():
+    engine = pyttsx3.init()
+    texto = "Olá, esta é uma demonstração do pyttsx3."
+    engine.say(texto)
+    engine.runAndWait()
+
+
+
+
+#Clima, Free WeatherAPI chave: 1aba4342ed1b4daba44190007252702

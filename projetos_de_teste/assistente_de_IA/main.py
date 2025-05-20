@@ -3,3 +3,4 @@ from interface import *
 
 
 Iniciar()
+Falar()
