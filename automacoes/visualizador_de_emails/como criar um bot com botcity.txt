@@ -1,0 +1,86 @@
+documentação oficial
+https://documentation.botcity.dev/pt/tutorials/python-automations/desktop/
+
+
+Pré-requisitos:
+
+Conta BotCity
+BotCity Studio SDK
+Python 3.7 ou superior
+
+
+Criando seu Primeiro Projeto¶
+A BotCity oferece um modelo de projeto que pode ser personalizado por meio de uma ferramenta chamada cookiecutter.
+
+Instalando o Cookiecutter¶
+Para criarmos um projeto, precisamos primeiro instalar o pacote Python do cookiecutter, executando o seguinte comando em seu terminal de linha de comando:
+
+python -m pip install --upgrade cookiecutter
+
+Depois de fazer isso, você está pronto para criar sua primeira automação Python utilizando o framework da BotCity.
+
+Utilizando o Modelo de Projeto¶
+Com o cookiecutter devidamente instalado, é hora de fazer uso dele e criar um novo projeto.
+
+Para criarmos um novo projeto usando o modelo de projeto, vamos invocar o cookiecutter e fornecer como argumento a URL do repositório onde os templates da BotCity estão localizados:
+
+
+python -m cookiecutter https://github.com/botcity-dev/bot-python-template/archive/v2.zip
+O sistema irá solicitar algumas respostas para criar seu projeto.
+
+Quando solicitado project_type escolha a opção 1 para Desktop e pressione enter;
+Para bot_id, digite HelloBot e pressione enter;
+Após o término do processo acima, uma nova pasta chamada HelloBot estará disponível.
+
+Sucesso
+
+Parabéns, você agora tem um projeto com o framework Python da BotCity. 🏆
+
+Vamos agora inspecionar os detalhes deste projeto.
+
+Explorando o Projeto¶
+Dentro da pasta do seu projeto HelloBot, você deverá ter a seguinte estrutura:
+
+
+HelloBot
+├── bot.py       <- Aqui é onde iremos trabalhar e desenvolver nosso robô.
+├── resources    <- Pasta contendo os arquivos auxiliares para o robô.
+├── build.bat        <- Script em Batch para gerar o pacote.
+├── build.ps1        <- Script em PowerShell para gerar o pacote.
+├── build.sh         <- Shell script para gerar o pacote.
+├── requirements.txt <- Arquivo descrevendo todas dependencias externas para seu robô.
+└── HelloBot.botproj <- Arquivo utilizado para carregar o projeto no BotStudio.
+Nota
+
+O template de projeto é composto por vários arquivos e pastas, porém aqui estão os mais importantes:
+
+bot.py: Altere este arquivo e adicione aqui seu código.
+resources: Adicione nesta pasta os arquivos a serem utilizados por seu robô como imagens, planilhas e etc.
+requirements.txt: Altere este arquivo e adicione todas as dependências externas que são utilizadas no código.
+Sucesso
+
+Toda essa informação é bem legal mas é hora de vermos alguma ação.
+
+Vamos testar nosso robô localmente. 🦾🤖
+
+Testando seu Projeto Localmente¶
+Para testar seu projeto localmente, vamos primeiro instalar as dependências do Python que estão sendo utilizadas no projeto.
+
+Utilizando a linha de comando, acesse a pasta HelloBot que criamos nas etapas anteriores.
+
+Instalando as Dependências do Projeto¶
+A partir desta pasta, rode o comando abaixo para instalar as dependências definidas no arquivo requirements.txt:
+
+
+pip install --upgrade -r requirements.txt
+Este comando vai produzir uma saída grande referente a instalação de todas as dependências como, por exemplo, o botcity-framework-core e outras.
+
+Assim que este processo terminar, seu projeto estará pronto para ser executado.
+
+Executando o Robô¶
+Nosso modelo de projeto roda um código de exemplo bem simples. Este projeto apenas abre seu navegador padrão e carrega a página da BotCity.
+
+Ainda utilizando o terminal aberto dentro da pasta do projeto, você pode executar sua automação HelloBot com o seguinte comando:
+
+
+python bot.py
