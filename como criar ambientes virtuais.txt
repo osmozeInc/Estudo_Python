@@ -1,0 +1,18 @@
+Escolha o diretório onde você deseja criar o ambiente virtual
+em seguida, execute o comando abaixo no terminal:
+
+python -m venv nome_do_ambiente
+
+
+Ative o ambiente virtual:
+
+nome_do_ambiente\Scripts\activate
+
+
+Quando o ambiente virtual estiver ativado, o nome do ambiente será
+exibido antes do prompt no terminal. Agora, todas as bibliotecas 
+instaladas usarão o ambiente virtual.
+
+Dessative o ambiente virtual:
+
+deactivate
