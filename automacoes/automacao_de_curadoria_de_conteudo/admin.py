@@ -1,9 +1,9 @@
 from feed_reader import fetch_news
 from classifier import classify_news
-from user_db import get_users
-from openai_formatter import format_news
-from email_sender import send_email
-import random
+#from user_db import get_users
+#from openai_formatter import format_news
+#from email_sender import send_email
+
 
 def admin_listClassifiedNotices(news_data):
     classified = classify_news(news_data)
@@ -50,9 +50,6 @@ def main():
 
     print("Agrupando noticias...")
     admin_listAllNotices(news_data)
-
-
-
 
 
 
