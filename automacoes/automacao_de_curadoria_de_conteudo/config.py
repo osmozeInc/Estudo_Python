@@ -5,7 +5,7 @@ FEEDS = {
     'TecMundo': 'https://rss.tecmundo.com.br/feed',
     'Olhar Digital': 'https://olhardigital.com.br/feed/',
     'Canaltech': 'https://feeds2.feedburner.com/canaltechbr',
-    'Tilt UOL': 'https://gizmodo.uol.com.br/feed/',
+    'Tilt UOL': 'https://rss.uol.com.br/feed/tecnologia.xml',
     'Gizmodo Brasil': 'https://gizmodo.uol.com.br/feed/'
 }            
 
@@ -20,7 +20,7 @@ EMAIL_CREDENTIALS = {
 KEYWORDS = {
     'IA': [
         'inteligência artificial', 'machine learning', 'aprendizado de máquina',
-        'deep learning', 'rede neural', 'algoritmo', 'automação', 'chatbot',
+        'deep learning', 'rede neural', 'IA', 'automação', 'chatbot',
         'processamento de linguagem natural', 'visão computacional', 'IA generativa'
     ],
     'Startups': [
@@ -52,7 +52,7 @@ KEYWORDS = {
         'computação em nuvem', 'plataforma digital', 'blockchain'
     ],
     'Jogos e Entretenimento': [
-        'jogos eletrônicos', 'game', 'gamer', 'streaming de jogos',
+        'jogos', 'game', 'gamer', 'streaming', 'filmes', 'series',
         'console', 'PlayStation', 'Xbox', 'Nintendo', 'eSports', 'realidade virtual'
     ],
     'Ciência e Inovação': [

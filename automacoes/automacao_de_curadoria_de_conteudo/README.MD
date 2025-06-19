@@ -63,7 +63,7 @@ Canaltech – Bastante atualizado, com foco em smartphones, ciência e inteligê
 RSS: https://feeds2.feedburner.com/canaltechbr                                                              |
 .                                                                                                           |
 Tilt UOL – Cobre tecnologia, inovação e cultura digital.                                                    |
-RSS: https://gizmodo.uol.com.br/feed/                                                                       |
+RSS: https://rss.uol.com.br/feed/tecnologia.xml                                                                       |
 .                                                                                                           |
 Gizmodo Brasil – Versão brasileira do famoso site americano, com foco em ciência e tecnologia.              |
 RSS: https://gizmodo.uol.com.br/feed/                                                                       |

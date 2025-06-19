@@ -40,6 +40,8 @@ def admin_listAllNotices(news_data):
 
         input("enter para prosseguir")
 
+def admin_listAllUsers():
+    pass
 
 def main():
     print("Buscando noticias...")
